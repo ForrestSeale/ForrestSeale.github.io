@@ -1,7 +1,12 @@
 /*FONTS*/
 
 
+
 /*UNIVERSALS*/
+
+body {
+  background-color: #a3a3a3;
+}
 
 a {
   text-decoration: none;
@@ -19,7 +24,7 @@ a {
 /*NAV*/
 
 .navbar {
-  background-color: #0a0a0a;
+  background-color: #474747;
   border: none;
   margin: 0;
   border-radius: 0;
@@ -28,14 +33,10 @@ a {
 /*JUMBOTRON*/
 
 .jumbotron {
-  background-image: url("../img/code.png");
-  background-size: cover;
-  background-position: center;
+  background-color: #a3a3a3;
   height: 600px;
   margin: 0;
 }
-
-
 
 /*TRANSITIONS*/
 
