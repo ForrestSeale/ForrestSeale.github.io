@@ -1,11 +1,27 @@
 /*FONTS*/
 
-
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Gentium+Basic|IM+Fell+Double+Pica');
 
 /*UNIVERSALS*/
 
+.header-text {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.heading-text {
+  font-family: 'IM Fell Double Pica', serif;
+}
+
+.main-text {
+  font-family: 'Gentium Basic', serif;
+}
+
 body {
-  background-color: #a3a3a3;
+  background-color: #ADADAD;
+}
+
+p {
+  font-size: 18px;
 }
 
 a {
@@ -33,10 +49,20 @@ a {
 /*JUMBOTRON*/
 
 .jumbotron {
-  background-color: #a3a3a3;
-  height: 600px;
+  background-color: #ADADAD;
+  height: 400px;
   margin: 0;
 }
+
+
+/*ABOUT*/
+
+#about {
+  background-color: #fff;
+}
+
+
+
 
 /*TRANSITIONS*/
 
