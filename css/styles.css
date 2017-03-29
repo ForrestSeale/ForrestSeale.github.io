@@ -4,6 +4,10 @@
 
 /*UNIVERSALS*/
 
+.shadow {
+  box-shadow: 2px 2px 10px black;
+}
+
 .header-text {
   font-family: 'Fredericka the Great', cursive;
 }
