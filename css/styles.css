@@ -26,7 +26,12 @@ p {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
 }
 
 .white-text {
@@ -61,7 +66,26 @@ a {
   background-color: #fff;
 }
 
+/*PROJECTS*/
 
+.project-img {
+  padding: 15px;
+}
+
+.img-link {
+  transition: color 0.5s ease;
+  color: #ADADAD;
+}
+
+.img-link:hover {
+  color: #000;
+}
+
+/*CONTACT*/
+
+#contact {
+  background-color: #fff;
+}
 
 
 /*TRANSITIONS*/
@@ -82,6 +106,10 @@ a {
 
 .fadeinright {
   animation-name: fadeInRight;
+}
+
+.hoverfade:hover {
+  animation-name: fadeInUp;
 }
 
 /*KEYFRAMES*/
