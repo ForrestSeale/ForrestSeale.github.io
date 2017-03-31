@@ -97,11 +97,17 @@ a:hover {
   background-color: #fff;
 }
 
+/*FOOTER*/
 
-/*TRANSITIONS*/
+
+
+
+
+
+/*TRANSITIONS/ANIMATIONS*/
 
 .transition {
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   transition-timing-function: ease-in;
   animation-fill-mode: both;
 }
